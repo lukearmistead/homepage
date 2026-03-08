@@ -24,12 +24,15 @@ body {
   font-size: 1rem;
 }
 
+h1, h2, nav a {
+  font-family: var(--sans);
+}
+
 header {
   margin-bottom: 2.5rem;
 }
 
 h1 {
-  font-family: var(--sans);
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 0.4rem;
@@ -37,7 +40,6 @@ h1 {
 }
 
 nav a {
-  font-family: var(--sans);
   margin-right: 1.2rem;
   text-decoration: none;
   color: var(--muted);
@@ -48,16 +50,12 @@ nav a:hover {
   color: var(--text);
 }
 
-.intro {
+main > p {
+  font-size: 1.05rem;
   margin-bottom: 3rem;
 }
 
-.intro p {
-  font-size: 1.05rem;
-}
-
 h2 {
-  font-family: var(--sans);
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
@@ -83,16 +81,6 @@ a:hover {
   color: var(--text);
 }
 
-p, li {
-  color: var(--text);
-}
-
-section > p {
-  margin-top: 0.8rem;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
 footer {
   margin-top: 4rem;
   color: var(--muted);
@@ -100,5 +88,5 @@ footer {
 }
 
 footer a {
-  color: var(--muted);
+  color: inherit;
 }
