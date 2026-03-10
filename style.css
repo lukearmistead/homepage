@@ -29,6 +29,12 @@ header {
   margin-bottom: 3rem;
 }
 
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .portrait {
   width: 5rem;
   height: 5rem;
